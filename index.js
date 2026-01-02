@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const sql = require('mssql');
 const jwt = require('jsonwebtoken');
@@ -59,3 +60,5 @@ app.post('/register', async (req, res) => {
 app.listen(port, () => {
     console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
 });
+=======
+>>>>>>> parent of 6588e43 (두번째 커밋)
